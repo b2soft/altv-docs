@@ -52913,18 +52913,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Async.AsyncContextExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.Async.AsyncContextExtensions.html",
-          "hash": "na4iI230DPPmAK11mfNOPiq1xU1WTzBSr+mN/gqecG4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "coreclr-module/docs/api/AltV.Net.Async.AsyncEntityPool-1.yml",
       "output": {
         ".html": {
@@ -54190,30 +54178,6 @@
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.VehicleConstants.html",
           "hash": "OZfdQecI0xgkC+h6qNoC8v7NrcwSSkAHVcnuyReGCxw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.VehicleModelInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.Data.VehicleModelInfo.html",
-          "hash": "+Z8F9xLFuXieCHeqGHIL9iCF50EbFeff/yjY/YwlZmI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.VehicleModelType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.Data.VehicleModelType.html",
-          "hash": "RuQm8h3Dnnw408HgV3vTMcuXzgMfL1yxyFoWSgrEEck="
         }
       },
       "is_incremental": false,
@@ -59376,7 +59340,7 @@
       "output": {
         ".html": {
           "relative_path": "sdk/first-steps.html",
-          "hash": "xSQ4l+EyD5r/x6Ak/YOXNaIz8k/4l7Wt9NAjIlEa0S4="
+          "hash": "UkO0O9uh6ewl692oZggOLkzIAOJQs/2G2VlBbbiv23U="
         }
       },
       "is_incremental": false,
