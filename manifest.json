@@ -52509,7 +52509,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/changelogs/upcoming.html",
-          "hash": "YbJs38CjAwOv3Z+4Ln0FGX7qYo5i1hURenzEEBM8ELI="
+          "hash": "2FLCIoMP65AoCQ+GdjynEO4sbmwWrrm+OFaaOSxi1cE="
         }
       },
       "is_incremental": false,
@@ -52569,7 +52569,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/configs/server.html",
-          "hash": "R9MXw7LZZi254lyTNzEujrCpa9mqk9rVlwgBXPIdpN0="
+          "hash": "y6wEkKF1v4rXAMo5Yepm1cb/PrA93GdDfhPTSpsxS68="
         }
       },
       "is_incremental": false,
@@ -57917,18 +57917,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.IServer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.IServer.html",
-          "hash": "6eLcKBC/LKmqNXXKL6wfLFsdRjWrTEBxTPBzNOabVVs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "coreclr-module/docs/api/AltV.Net.IWritable.yml",
       "output": {
         ".html": {
@@ -58385,18 +58373,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Mock.MockServer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.Mock.MockServer.html",
-          "hash": "ip9ijWq0kSRyXpfAbZMSTmrMEDVa8lBCu8ZDlCzJnAc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "coreclr-module/docs/api/AltV.Net.Mock.MockVehicle.yml",
       "output": {
         ".html": {
@@ -58786,18 +58762,6 @@
         ".html": {
           "relative_path": "cs/api/AltV.Net.ScriptEventType.html",
           "hash": "PU8a6bS/yF+Jo63EEK+kbI+LwJiBYmM6xX+pcM58h+0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Server.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cs/api/AltV.Net.Server.html",
-          "hash": "EfZz1euGf9Uuxt0qip/tI2/IlUxFo70+mEUztTMllSo="
         }
       },
       "is_incremental": false,
