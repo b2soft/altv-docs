@@ -1,0 +1,1024 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html class="theme-dark">
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SharedCore
+   </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Class SharedCore
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.css" integrity="sha512-T3VL1q6jMUIzGLRB9z86oJg9PgF7A55eC2XkB93zyWSqQw3Ju+6IEJZYBfT7E9wOHM7HCMCOZSpcssxnUn6AeQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/stackoverflow-dark.min.css" integrity="sha512-Xn1b0y/BrCD7usnEh6r9CcKxHXFVleVUjGDnfc95zDDwFUwtOz3lJC/XtJcuLRNyrMQJEEToFfwjC9Ue/aWY/g==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/stackoverflow-light.min.css" integrity="sha512-RDtnAhiPytLVV3AwzHkGVMVI4szjtSjxxyhDaH3gqdHPIw5qwQld1MVGuMu1EYoof+CaEccrO3zUVb13hQFU/A==" crossorigin="anonymous" disabled="disabled">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+
+  <body>
+
+        <div class="body-content">
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.svg" alt="alt:V" class="logomark">
+                        <span class="brand-title">alt:V</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+                    
+
+
+                </div>
+
+
+            </nav>
+
+            <main class="main-panel">
+
+                <div class="blackout desktop-hide"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <button class="btn-link search-back desktop-hide"></button>
+                      <button class="btn-link navbar-toggler" aria-label="Toggle navigation"></button>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex-space"></div>
+                      <div class="toolbar">
+                          <div style="position: relative; margin: 0 8px;">
+                            <form class="search-bar mobile-hide" role="search" id="search" style="position: relative;">
+                              <button class="btn-link clear" id="search-query-clear"></button>
+                              <div role="textbox" class="form-control" id="search-query" placeholder="Search" contenteditable="true"></div>
+                            </form>
+                            <div class="popout" id="search-menu">
+                                <button class="btn-link search-help" data-href="../../articles/search_help.html"></button>
+                              <span class="title">
+                                Search options:
+                              </span>
+                            </div>
+                            <button class="btn-link search-tip desktop-hide"></button>
+                          </div>
+                      </div>
+                      <button class="btn-link btn-floating search desktop-hide"></button>
+                      <div class="theme">
+                        <button class="btn-link theme" aria-label="Switch theme"></button>
+                        <div class="popout" id="theme-menu">
+                          <div class="theme-option light" data-theme="light">
+                            <span class="btn-link theme-light">Light</span>
+                          </div>
+                          <div class="theme-option dark" data-theme="dark">
+                            <span class="btn-link theme-dark">Dark</span>
+                          </div>
+                          <div class="theme-option auto" data-theme="auto">
+                            <span class="btn-link theme-auto">Sync with OS</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                <div class="content-region" role="main">
+
+                    <div class="content-column class">
+
+                            
+                            <div class="sideaffix hide-when-search" data-noindex="">
+                              <h3>Index</h3>
+                              <div class="bs-docs-sidebar affix" id="affix"><ul class="level1 nav bs-docs-sidenav"><li><a href="#constructors">Constructors</a><ul class="level2 nav bs-docs-sidenav constructors"><li><a href="#AltV_Net_Shared_SharedCore__ctor_IntPtr_AltV_Net_CApi_ILibrary_">SharedCore(IntPtr, ILibrary)</a></li></ul></li><li><a href="#properties">Properties</a><ul class="level2 nav bs-docs-sidenav properties"><li><a href="#AltV_Net_Shared_SharedCore_BaseBaseObjectPool">BaseBaseObjectPool</a></li><li><a href="#AltV_Net_Shared_SharedCore_Branch">Branch</a></li><li><a href="#AltV_Net_Shared_SharedCore_IsDebug">IsDebug</a></li><li><a href="#AltV_Net_Shared_SharedCore_Library">Library</a></li><li><a href="#AltV_Net_Shared_SharedCore_NativePointer">NativePointer</a></li><li><a href="#AltV_Net_Shared_SharedCore_PlayerPool">PlayerPool</a></li><li><a href="#AltV_Net_Shared_SharedCore_VehiclePool">VehiclePool</a></li><li><a href="#AltV_Net_Shared_SharedCore_Version">Version</a></li></ul></li><li><a href="#methods">Methods</a><ul class="level2 nav bs-docs-sidenav methods"><li><a href="#AltV_Net_Shared_SharedCore_CountDownRefForCurrentThread_AltV_Net_Types_IRefCountable_">CountDownRefForCurrentThread(IRefCountable)</a></li><li><a href="#AltV_Net_Shared_SharedCore_CountUpRefForCurrentThread_AltV_Net_Types_IRefCountable_">CountUpRefForCurrentThread(IRefCountable)</a></li><li><a href="#AltV_Net_Shared_SharedCore_Dispose">Dispose()</a></li><li><a href="#AltV_Net_Shared_SharedCore_Hash_System_String_">Hash(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_HasRefForCurrentThread_AltV_Net_Types_IRefCountable_">HasRefForCurrentThread(IRefCountable)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogColored_IntPtr_">LogColored(IntPtr)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogColored_System_String_">LogColored(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogDebug_IntPtr_">LogDebug(IntPtr)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogDebug_System_String_">LogDebug(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogError_IntPtr_">LogError(IntPtr)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogError_System_String_">LogError(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogInfo_IntPtr_">LogInfo(IntPtr)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogInfo_System_String_">LogInfo(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogWarning_IntPtr_">LogWarning(IntPtr)</a></li><li><a href="#AltV_Net_Shared_SharedCore_LogWarning_System_String_">LogWarning(String)</a></li><li><a href="#AltV_Net_Shared_SharedCore_PtrToStringUtf8AndFree_System_IntPtr_System_Int32_">PtrToStringUtf8AndFree(IntPtr, Int32)</a></li></ul></li><li><a href="#implements">Implements</a></li></ul></div>
+                            </div>
+
+                            
+                            <div id="search-results">
+                              <div class="search-list">Search Results for <span></span></div>
+                              <div class="sr-items">
+                                <p><span class="glyphicon glyphicon-refresh index-loading"></span></p>
+                              </div>
+                              <ul id="pagination" data-first="" data-prev="&#xf053;" data-next="&#xf054;" data-last=""></ul>
+                            </div>
+
+                        <article class="content wrap hide-when-search" id="_content" data-uid="AltV.Net.Shared.SharedCore">
+
+                                <span class="small pull-right article mobile-hide" style="margin: 0;" data-noindex="">
+                                    <ul class="subnav contribution">
+                                            <li>
+                                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L11">View Source</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                                            </li>
+                                    </ul>
+                                </span>
+
+  
+  
+  <h1 id="AltV_Net_Shared_SharedCore" data-uid="AltV.Net.Shared.SharedCore" class="text-break">Class SharedCore
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SharedCore</span></div>
+      <div class="level2"><a class="xref" href="AltV.Net.Core.html">Core</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AltV.Net.Shared.ISharedCore.html">ISharedCore</a></div>
+    <div><a class="xref" href="AltV.Net.CApi.ICApiCore.html">ICApiCore</a></div>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AltV.Net.Shared.html">AltV.Net.Shared</a></h6>
+  <h6><strong>Assembly</strong>: AltV.Net.Shared.dll</h6>
+  <h5 id="AltV_Net_Shared_SharedCore_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class SharedCore : object, ISharedCore, ICApiCore, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore__ctor_IntPtr_AltV_Net_CApi_ILibrary_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.%23ctor(IntPtr%2CAltV.Net.CApi.ILibrary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L17">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore__ctor_" data-uid="AltV.Net.Shared.SharedCore.#ctor*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore__ctor_IntPtr_AltV_Net_CApi_ILibrary_" data-uid="AltV.Net.Shared.SharedCore.#ctor(IntPtr,AltV.Net.CApi.ILibrary)">SharedCore(IntPtr, ILibrary)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedCore(IntPtr nativePointer, ILibrary library)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">nativePointer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AltV.Net.CApi.ILibrary.html">ILibrary</a></td>
+        <td><span class="parametername">library</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_BaseBaseObjectPool.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.BaseBaseObjectPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L25">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_BaseBaseObjectPool_" data-uid="AltV.Net.Shared.SharedCore.BaseBaseObjectPool*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_BaseBaseObjectPool" data-uid="AltV.Net.Shared.SharedCore.BaseBaseObjectPool">BaseBaseObjectPool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IReadOnlyBaseBaseObjectPool BaseBaseObjectPool { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.Shared.IReadOnlyBaseBaseObjectPool.html">IReadOnlyBaseBaseObjectPool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_Branch.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.Branch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L45">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_Branch_" data-uid="AltV.Net.Shared.SharedCore.Branch*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_Branch" data-uid="AltV.Net.Shared.SharedCore.Branch">Branch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Branch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_IsDebug.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.IsDebug%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L62">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_IsDebug_" data-uid="AltV.Net.Shared.SharedCore.IsDebug*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_IsDebug" data-uid="AltV.Net.Shared.SharedCore.IsDebug">IsDebug</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDebug { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_Library.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.Library%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L15">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_Library_" data-uid="AltV.Net.Shared.SharedCore.Library*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_Library" data-uid="AltV.Net.Shared.SharedCore.Library">Library</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILibrary Library { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.CApi.ILibrary.html">ILibrary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_NativePointer.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.NativePointer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L13">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_NativePointer_" data-uid="AltV.Net.Shared.SharedCore.NativePointer*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_NativePointer" data-uid="AltV.Net.Shared.SharedCore.NativePointer">NativePointer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntPtr NativePointer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_PlayerPool.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.PlayerPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L23">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_PlayerPool_" data-uid="AltV.Net.Shared.SharedCore.PlayerPool*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_PlayerPool" data-uid="AltV.Net.Shared.SharedCore.PlayerPool">PlayerPool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IReadOnlyEntityPool&lt;ISharedPlayer&gt; PlayerPool { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.IReadOnlyEntityPool-1.html">IReadOnlyEntityPool</a>&lt;<a class="xref" href="AltV.Net.Shared.Elements.Entities.ISharedPlayer.html">ISharedPlayer</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_VehiclePool.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.VehiclePool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L24">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_VehiclePool_" data-uid="AltV.Net.Shared.SharedCore.VehiclePool*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_VehiclePool" data-uid="AltV.Net.Shared.SharedCore.VehiclePool">VehiclePool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IReadOnlyEntityPool&lt;ISharedVehicle&gt; VehiclePool { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.IReadOnlyEntityPool-1.html">IReadOnlyEntityPool</a>&lt;<a class="xref" href="AltV.Net.Shared.Elements.Entities.ISharedVehicle.html">ISharedVehicle</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_Version.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L28">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_Version_" data-uid="AltV.Net.Shared.SharedCore.Version*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_Version" data-uid="AltV.Net.Shared.SharedCore.Version">Version</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_CountDownRefForCurrentThread_AltV_Net_Types_IRefCountable_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.CountDownRefForCurrentThread(AltV.Net.Types.IRefCountable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L222">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_CountDownRefForCurrentThread_" data-uid="AltV.Net.Shared.SharedCore.CountDownRefForCurrentThread*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_CountDownRefForCurrentThread_AltV_Net_Types_IRefCountable_" data-uid="AltV.Net.Shared.SharedCore.CountDownRefForCurrentThread(AltV.Net.Types.IRefCountable)">CountDownRefForCurrentThread(IRefCountable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CountDownRefForCurrentThread(IRefCountable baseObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.Types.IRefCountable.html">IRefCountable</a></td>
+        <td><span class="parametername">baseObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_CountUpRefForCurrentThread_AltV_Net_Types_IRefCountable_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.CountUpRefForCurrentThread(AltV.Net.Types.IRefCountable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L200">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_CountUpRefForCurrentThread_" data-uid="AltV.Net.Shared.SharedCore.CountUpRefForCurrentThread*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_CountUpRefForCurrentThread_AltV_Net_Types_IRefCountable_" data-uid="AltV.Net.Shared.SharedCore.CountUpRefForCurrentThread(AltV.Net.Types.IRefCountable)">CountUpRefForCurrentThread(IRefCountable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CountUpRefForCurrentThread(IRefCountable baseObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.Types.IRefCountable.html">IRefCountable</a></td>
+        <td><span class="parametername">baseObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_Dispose.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L268">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_Dispose_" data-uid="AltV.Net.Shared.SharedCore.Dispose*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_Dispose" data-uid="AltV.Net.Shared.SharedCore.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_Hash_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.Hash(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L75">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_Hash_" data-uid="AltV.Net.Shared.SharedCore.Hash*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_Hash_System_String_" data-uid="AltV.Net.Shared.SharedCore.Hash(System.String)">Hash(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Hash(string stringToHash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">stringToHash</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_HasRefForCurrentThread_AltV_Net_Types_IRefCountable_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.HasRefForCurrentThread(AltV.Net.Types.IRefCountable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L249">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_HasRefForCurrentThread_" data-uid="AltV.Net.Shared.SharedCore.HasRefForCurrentThread*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_HasRefForCurrentThread_AltV_Net_Types_IRefCountable_" data-uid="AltV.Net.Shared.SharedCore.HasRefForCurrentThread(AltV.Net.Types.IRefCountable)">HasRefForCurrentThread(IRefCountable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRefForCurrentThread(IRefCountable baseObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AltV.Net.Types.IRefCountable.html">IRefCountable</a></td>
+        <td><span class="parametername">baseObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogColored_IntPtr_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogColored(IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L129">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogColored_" data-uid="AltV.Net.Shared.SharedCore.LogColored*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogColored_IntPtr_" data-uid="AltV.Net.Shared.SharedCore.LogColored(IntPtr)">LogColored(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogColored(IntPtr messagePtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">messagePtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogColored_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogColored(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L177">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogColored_" data-uid="AltV.Net.Shared.SharedCore.LogColored*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogColored_System_String_" data-uid="AltV.Net.Shared.SharedCore.LogColored(System.String)">LogColored(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogColored(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogDebug_IntPtr_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogDebug(IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L105">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogDebug_" data-uid="AltV.Net.Shared.SharedCore.LogDebug*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogDebug_IntPtr_" data-uid="AltV.Net.Shared.SharedCore.LogDebug(IntPtr)">LogDebug(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogDebug(IntPtr messagePtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">messagePtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogDebug_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogDebug(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L147">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogDebug_" data-uid="AltV.Net.Shared.SharedCore.LogDebug*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogDebug_System_String_" data-uid="AltV.Net.Shared.SharedCore.LogDebug(System.String)">LogDebug(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogDebug(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogError_IntPtr_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogError(IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L121">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogError_" data-uid="AltV.Net.Shared.SharedCore.LogError*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogError_IntPtr_" data-uid="AltV.Net.Shared.SharedCore.LogError(IntPtr)">LogError(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogError(IntPtr messagePtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">messagePtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogError_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogError(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L167">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogError_" data-uid="AltV.Net.Shared.SharedCore.LogError*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogError_System_String_" data-uid="AltV.Net.Shared.SharedCore.LogError(System.String)">LogError(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogError(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogInfo_IntPtr_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogInfo(IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L97">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogInfo_" data-uid="AltV.Net.Shared.SharedCore.LogInfo*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogInfo_IntPtr_" data-uid="AltV.Net.Shared.SharedCore.LogInfo(IntPtr)">LogInfo(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogInfo(IntPtr messagePtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">messagePtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogInfo_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogInfo(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L137">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogInfo_" data-uid="AltV.Net.Shared.SharedCore.LogInfo*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogInfo_System_String_" data-uid="AltV.Net.Shared.SharedCore.LogInfo(System.String)">LogInfo(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogInfo(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogWarning_IntPtr_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogWarning(IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L113">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogWarning_" data-uid="AltV.Net.Shared.SharedCore.LogWarning*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogWarning_IntPtr_" data-uid="AltV.Net.Shared.SharedCore.LogWarning(IntPtr)">LogWarning(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogWarning(IntPtr messagePtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">messagePtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_LogWarning_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.LogWarning(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L157">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_LogWarning_" data-uid="AltV.Net.Shared.SharedCore.LogWarning*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_LogWarning_System_String_" data-uid="AltV.Net.Shared.SharedCore.LogWarning(System.String)">LogWarning(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogWarning(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Shared_SharedCore_PtrToStringUtf8AndFree_System_IntPtr_System_Int32_.md&amp;value=---%0Auid%3A%20AltV.Net.Shared.SharedCore.PtrToStringUtf8AndFree(System.IntPtr%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/07a0be66a1a73ca87d3782ab08188528a64b3b8e/api/AltV.Net.Shared/SharedCore.cs/#L187">View Source</a>
+  </span>
+  <a id="AltV_Net_Shared_SharedCore_PtrToStringUtf8AndFree_" data-uid="AltV.Net.Shared.SharedCore.PtrToStringUtf8AndFree*"></a>
+  <h4 id="AltV_Net_Shared_SharedCore_PtrToStringUtf8AndFree_System_IntPtr_System_Int32_" data-uid="AltV.Net.Shared.SharedCore.PtrToStringUtf8AndFree(System.IntPtr,System.Int32)">PtrToStringUtf8AndFree(IntPtr, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PtrToStringUtf8AndFree(nint str, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">str</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AltV.Net.Shared.ISharedCore.html">ISharedCore</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.CApi.ICApiCore.html">ICApiCore</a>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+</article>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/arrive/2.4.1/arrive.min.js" integrity="sha512-wkU3qYWjenbM+t2cmvw2ADRRh4opbOYBjkhrPGHV7M6dcE/TR0oKpoDkWXfUs3HrulI2JFuTQyqPLRih1V54EQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.js" integrity="sha512-ztxZscxb55lKL+xmWGZEbBHekIzy+1qYKHGZTWZYH1GUwxy0hiA18lW6ORIMj4DHRgvmP/qGcvqwEyFFV7OYVQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/discord.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>
