@@ -399,6 +399,12 @@ namespace AltV.Net
             add =&gt; CoreImpl.ConnectionQueueRemoveHandler.Add(value);
             remove =&gt; CoreImpl.ConnectionQueueRemoveHandler.Remove(value);
         }
+        
+        public static event ServerStartedDelegate OnServerStarted
+        {
+            add =&gt; CoreImpl.ServerStartedHandler.Add(value);
+            remove =&gt; CoreImpl.ServerStartedHandler.Remove(value);
+        }
     }
 }
 </code></pre>
@@ -479,6 +485,8 @@ namespace AltV.Net.Events
     public delegate void ConnectionQueueAddDelegate(IConnectionInfo connectionInfo);
     
     public delegate void ConnectionQueueRemoveDelegate(IConnectionInfo connectionInfo);
+
+    public delegate void ServerStartedDelegate();
 }
 </code></pre>
 <p>The player event handler looks like this.</p>
