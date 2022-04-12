@@ -405,6 +405,13 @@ namespace AltV.Net
             add =&gt; CoreImpl.ServerStartedHandler.Add(value);
             remove =&gt; CoreImpl.ServerStartedHandler.Remove(value);
         }
+        
+        public static event PlayerRequestControlDelegate OnPlayerRequestControl
+        {
+            add =&gt; CoreImpl.PlayerRequestControlHandler.Add(value);
+            remove =&gt; CoreImpl.PlayerRequestControlHandler.Remove(value);
+        }
+        
     }
 }
 </code></pre>
@@ -487,6 +494,8 @@ namespace AltV.Net.Events
     public delegate void ConnectionQueueRemoveDelegate(IConnectionInfo connectionInfo);
 
     public delegate void ServerStartedDelegate();
+
+    public delegate void PlayerRequestControlDelegate(IEntity target, IPlayer player);
 }
 </code></pre>
 <p>The player event handler looks like this.</p>
