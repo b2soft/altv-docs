@@ -148,6 +148,9 @@
 
     document.getElementById("CDN_Link_Generator-interface").innerHTML = generateInterface();
 
+    /**
+     * @returns {string}
+     */
     function generateInterface()
     {
         let interfaceStr = "";
@@ -181,10 +184,13 @@
         return interfaceStr;
     }
 
+    /**
+     * @returns {void}
+     */
     function generate()
     {
-        let branch = document.getElementById("branch").value;
-        let os = document.getElementById("os").value;
+        let branch = Number.parseInt(document.getElementById("branch").value, 10);
+        let os = Number.parseInt(document.getElementById("os").value, 10);
         let update = document.getElementById("update").checked;
         let server = document.getElementById("server").checked;
         let voice = document.getElementById("voice").checked;
@@ -195,6 +201,13 @@
         document.getElementById("CDN_Link_Generator-links").innerHTML = generateLinks([server, voice, csharp, javascript, bytecodeModule],branch,os,update);
     }
 
+    /**
+     * @param {boolean[]} selection
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateLinks(selection, branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -224,6 +237,12 @@
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateServerLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -232,7 +251,7 @@
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>"
             returnStr += "https://cdn.altv.mp/data/" + branchArray[branchIndex] + "/update.json</br>"
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-server.exe</br>";
         else
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-server</br>";
@@ -244,6 +263,12 @@
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateVoiceServerLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -251,7 +276,7 @@
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-voice-server.exe</br>";
         else
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-voice-server</br>";
@@ -259,6 +284,12 @@
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateCSLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -269,7 +300,7 @@
         returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/AltV.Net.Host.dll</br>";
         returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/AltV.Net.Host.runtimeconfig.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/csharp-module.dll</br>";
         else
             returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/libcsharp-module.so</br>";
@@ -277,6 +308,12 @@
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateJSLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -284,14 +321,14 @@
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.dll</br>";
         else if(branchArray.indexOf("dev") === branchIndex)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.so.102</br>";
         else
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.so.83</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/js-module.dll</br>";
         else
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libjs-module.so</br>";
@@ -299,6 +336,12 @@
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateJSBytecodeLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -306,7 +349,7 @@
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/js-bytecode-module.dll</br>";
         else
             returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/libjs-bytecode-module.so</br>";
