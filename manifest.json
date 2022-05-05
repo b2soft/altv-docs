@@ -53096,6 +53096,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/discord_oauth.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/discord_oauth.html",
+          "hash": "mhlARHI2ZQBcHa9Sv4BHkHVpKDlwSTBzqzJI1Ghbi8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/earlyauth.md",
       "output": {
         ".html": {
@@ -61080,7 +61092,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "eVAtSXKoLh2vV61no7cKLMxR4/v19Ot+1cdTwV0B0DM="
+          "hash": "4X5BuOzjCf7SP3qO8/9x7vR1dI5/SbNmhkbIlrURU/I="
         }
       },
       "is_incremental": false,
