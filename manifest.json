@@ -50123,6 +50123,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "altv-docs-gta/articles/references/game-files.md",
+      "output": {
+        ".html": {
+          "relative_path": "gta/articles/references/game-files.html",
+          "hash": "ceYF2JyvC8uC2VfbLhH6fN/FRAyUyaww1HqPHj+dWgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "altv-docs-gta/articles/references/hudcomponents.md",
       "output": {
         ".html": {
@@ -50151,7 +50163,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/references/interiors-and-locations.html",
-          "hash": "C9+s83Q6xgw7ReZj9P/O6pG8ekMAlAJcyGaVeRp5bp0="
+          "hash": "5T2xvMLViJUxgQziqOjYLq58JyMg9vFDm6S4lNLPPlQ="
         }
       },
       "is_incremental": false,
@@ -50331,7 +50343,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/tutorials/stream_mlos.html",
-          "hash": "s5CPeTokSnEyO7yL4Btp22tF88gmDiG4AT14acXiygE="
+          "hash": "H0BBHU5wOZCs0ZNmN/iPIenWjStugBhtjDif+blPtX8="
         }
       },
       "is_incremental": false,
@@ -50379,7 +50391,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/tutorials/stream_vehicles.html",
-          "hash": "wUC2xDWqFuq2aVh7M1F4uKv1wHsofCIcsP1lX1rcPD8="
+          "hash": "+tJ6+39bj99Uuq1ulkp3TIWNJ6MRXpBU2rNF3IAm5E4="
         }
       },
       "is_incremental": false,
@@ -50391,7 +50403,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/tutorials/stream_weapons.html",
-          "hash": "jBfX4kqaPHvJUGqCyaqjhbkQiYdDBYhuoSg4+5f62ac="
+          "hash": "kjFEP2VUW139bXj3VYZvmeRxdn/ndDG6/cRjgRV6NrE="
         }
       },
       "is_incremental": false,
@@ -50466,7 +50478,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/vehicle/models.html",
-          "hash": "Xt89SxRTpu+YZi8ZmyD5pWS9JyQWIAUwz1x+XvtuqQg="
+          "hash": "WQbDjpju570P7+0qcToqqjUAiDO8/ayOIRKuf8F8nlA="
         }
       },
       "is_incremental": false,
@@ -50526,7 +50538,7 @@
       "output": {
         ".html": {
           "relative_path": "gta/articles/weapons/models.html",
-          "hash": "Rp9I46lgQRTpY5kebtFSUfZsmUISIXFi09GRQsR3ZwE="
+          "hash": "ZmLAyOz37H8o+SR4eFLWP943UhcUldBQytjXe9BvTQY="
         }
       },
       "is_incremental": false,
@@ -51164,18 +51176,6 @@
     },
     {
       "type": "TypeScriptReference",
-      "source_relative_path": "altv-types/docs/api/alt-client.PedBlip.yml",
-      "output": {
-        ".html": {
-          "relative_path": "js/api/alt-client.PedBlip.html",
-          "hash": "a2tPUAPXf7ttTP/uxLfhyBYZwCW2okvJWfexBRJ3kvM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "TypeScriptReference",
       "source_relative_path": "altv-types/docs/api/alt-client.Permission.yml",
       "output": {
         ".html": {
@@ -51364,18 +51364,6 @@
         ".html": {
           "relative_path": "js/api/alt-client.Vehicle.html",
           "hash": "wG5P0jqHHuMb0/7vB3T3VMClCIAFKyRo+f6IKa8sSKc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "TypeScriptReference",
-      "source_relative_path": "altv-types/docs/api/alt-client.VehicleBlip.yml",
-      "output": {
-        ".html": {
-          "relative_path": "js/api/alt-client.VehicleBlip.html",
-          "hash": "IaZm91On8b2PqjenzxK5h8m9oN2xk3ha2A0k7Vkp1J0="
         }
       },
       "is_incremental": false,
@@ -61254,7 +61242,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Uo2kEjItghfRXi4Gu6Vk7RS0D+jp9/tGMmndq6YOl7E="
+          "hash": "15ifTu4GaMlFwIZvPaeJ7KdFB6B485WOCRp1FjJwyxo="
         }
       },
       "is_incremental": false,
