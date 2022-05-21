@@ -110,7 +110,7 @@
                             
                             <div class="sideaffix hide-when-search" data-noindex="">
                               <h3>Index</h3>
-                              <div class="bs-docs-sidebar affix" id="affix"><ul class="level1 nav bs-docs-sidenav"><li><a href="#110-release">11.0-Release</a><ul class="level2 nav bs-docs-sidenav 110-release"><li><a href="#client">Client</a><ul class="level3 nav bs-docs-sidenav client"><li><a href="#added">Added</a></li></ul></li><li><a href="#server">Server</a><ul class="level3 nav bs-docs-sidenav server"><li><a href="#added-1">Added</a></li></ul></li><li><a href="#server--client">Server &amp; Client</a><ul class="level3 nav bs-docs-sidenav server--client"><li><a href="#added-2">Added</a></li></ul></li></ul></li></ul></div>
+                              <div class="bs-docs-sidebar affix" id="affix"><ul class="level1 nav bs-docs-sidenav"><li><a href="#110-release">11.0-Release</a><ul class="level2 nav bs-docs-sidenav 110-release"><li><a href="#client">Client</a><ul class="level3 nav bs-docs-sidenav client"><li><a href="#added">Added</a></li></ul></li><li><a href="#server">Server</a><ul class="level3 nav bs-docs-sidenav server"><li><a href="#added-1">Added</a></li></ul></li><li><a href="#server--client">Server &amp; Client</a><ul class="level3 nav bs-docs-sidenav server--client"><li><a href="#added-2">Added</a></li></ul></li><li><a href="#js-module">JS Module</a></li></ul></li></ul></div>
                             </div>
 
                             
@@ -171,6 +171,12 @@
 <h3 id="added-2">Added</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- animationChange event
+</code></pre>
+</div>
+<h2 id="js-module">JS Module</h2>
+<div class="nohljsln">
+<pre><code class="lang-yaml">- Updated nodeJS launch options to support native ECMAScript module loader by default (removed experimental loader warning)
+  → The js-module automatically detects esm files if one of the described cases are fullfilled, see: https://nodejs.org/docs/latest-v17.x/api/esm.html#enabling
 </code></pre>
 </div>
 </article>
