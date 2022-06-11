@@ -110,7 +110,7 @@
                             
                             <div class="sideaffix hide-when-search" data-noindex="">
                               <h3>Index</h3>
-                              <div class="bs-docs-sidebar affix" id="affix"><ul class="level1 nav bs-docs-sidenav"><li><a href="#110-release">11.0-Release</a><ul class="level2 nav bs-docs-sidenav 110-release"><li><a href="#client">Client</a><ul class="level3 nav bs-docs-sidenav client"><li><a href="#added">Added</a></li></ul></li><li><a href="#server">Server</a><ul class="level3 nav bs-docs-sidenav server"><li><a href="#added-1">Added</a></li></ul></li><li><a href="#server--client">Server &amp; Client</a><ul class="level3 nav bs-docs-sidenav server--client"><li><a href="#added-2">Added</a></li></ul></li><li><a href="#js-module">JS Module</a></li></ul></li></ul></div>
+                              <div class="bs-docs-sidebar affix" id="affix"><ul class="level1 nav bs-docs-sidenav"><li><a href="#110-release">11.0-Release</a><ul class="level2 nav bs-docs-sidenav 110-release"><li><a href="#client">Client</a><ul class="level3 nav bs-docs-sidenav client"><li><a href="#added">Added</a></li><li><a href="#fixed">Fixed</a></li></ul></li><li><a href="#server">Server</a><ul class="level3 nav bs-docs-sidenav server"><li><a href="#added-1">Added</a></li><li><a href="#fixed-1">Fixed</a></li></ul></li><li><a href="#server--client">Server &amp; Client</a><ul class="level3 nav bs-docs-sidenav server--client"><li><a href="#added-2">Added</a></li></ul></li><li><a href="#js-module">JS Module</a></li></ul></li></ul></div>
                             </div>
 
                             
@@ -145,29 +145,34 @@
 <h2 id="client">Client</h2>
 <h3 id="added">Added</h3>
 <div class="nohljsln">
-<pre><code class="lang-yaml">- local currentWeaponRecoil, currentWeaponSpread, currentWeaponDamage, currentWeaponRange getter
+<pre><code class="lang-yaml">- weapondata api
 - Save external console position and reapply on every start
+- vehicle lockState, petrolTankHealth getter
+- focusdata api (overrideFocus, clearFocus, focusOverrideEntity, etc)
 </code></pre>
 </div>
-<!-- ### Fixed
-
-> [!div class="nohljsln"]
-> ```yaml
-
-> ``` -->
+<h3 id="fixed">Fixed</h3>
+<div class="nohljsln">
+<pre><code class="lang-yaml">- weapon auto swap flag disabled vehicle weapons
+- playPedAmbientSpeechWithVoiceNative native
+</code></pre>
+</div>
 <h2 id="server">Server</h2>
 <h3 id="added-1">Added</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- isSpawned getter
 - currentAnimationDict &amp; currentAnimationName getter
+- improved client-files wildcard support in ressource.cfg
 </code></pre>
 </div>
-<!-- ### Fixed
-
-> [!div class="nohljsln"]
-> ```yaml
-> - blip rotation setter
-> ``` -->
+<h3 id="fixed-1">Fixed</h3>
+<div class="nohljsln">
+<pre><code class="lang-yaml">- Fix frozen and collision setter
+- Bicycles don't work sometimes
+- Size property doesn't work for areablip
+- playAmbientSpeech method
+</code></pre>
+</div>
 <h2 id="server--client">Server &amp; Client</h2>
 <h3 id="added-2">Added</h3>
 <div class="nohljsln">
