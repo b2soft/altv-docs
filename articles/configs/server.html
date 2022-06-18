@@ -196,7 +196,9 @@ js-module: {
     # https://nodejs.org/api/cli.html#--experimental-global-webcrypto
     global-webcrypto: true,
     # https://nodejs.org/api/cli.html#--experimental-network-imports
-    network-imports: true
+    network-imports: true,
+    # Add extra cli arguments to the node environment https://nodejs.org/api/cli.html
+    extra-cli-args: [&quot;--inspect=127.0.0.1:9229&quot;, &quot;--max-old-space-size=8192&quot;]
 }
 # Settings related to c#-module
 csharp-module: {
